@@ -16,8 +16,8 @@ def main():
     goblin_power = 2
 
     while goblin_health > 0 and hero_health > 0:
-        print("You have {} health and {} power."format(hero_health, hero_power))
-        print("The goblin has {} health and {} power."format(goblin_health, goblin_power))
+        print("You have {} health and {} power.".format(hero_health, hero_power))
+        print("The goblin has {} health and {} power.".format(goblin_health, goblin_power))
         print()
         print("What do you want to do?")
         print("1. fight goblin")
